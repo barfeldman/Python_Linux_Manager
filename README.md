@@ -1,8 +1,8 @@
-Service Management Script
+**Service Management Script**
 
-This Python script provides a command-line interface (CLI) for managing network interfaces and routes on Linux systems. It utilizes the netifaces and subprocess modules to interact with the system's network configuration.
+This Python script provides a command-line interface (CLI) for managing network interfaces and routes on Linux systems. It utilizes the **netifaces** and **subprocess** modules to interact with the system's network configuration.
 
-Features
+**Features**
 Change network adapter settings
 Add routes to multicast addresses
 Change hostname
@@ -11,18 +11,13 @@ Check connection to an installation machine
 Usage
 Clone the repository:
 
-bash
 Copy code
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/bfeldman/Python_Linux_Manager.git
 Install the required Python packages:
 
-bash
-Copy code
 pip install -r requirements.txt
-Run the script:
 
-bash
-Copy code
+Run the script:
 python3 service.py
 Follow the on-screen prompts to perform the desired actions.
 
